@@ -38,6 +38,7 @@ const R07_example1 = () => {
               className='form-control'
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
+              //if onChange is not working, you won't be able to type any value on input
             />
           </div>
 

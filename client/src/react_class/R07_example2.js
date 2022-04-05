@@ -65,10 +65,10 @@ const R07_example2 = () => {
 
       <article>
         {userList.map((data) => {
-          const {id, fullName, email, age} = data
+          const {id, fullname, email, age} = data
           return(
             <div key={id}>
-              <h6>{fullName}</h6>
+              <h6>{fullname}</h6>
               <h6>{email}</h6>
               <h6>{age}</h6>
             </div>
