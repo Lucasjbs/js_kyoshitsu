@@ -27,7 +27,7 @@ function R07_Inputs() {
                   display what is inside the State value.</p>
                 <p>The ID of each user is created using the date and converting it to string.</p>
                 <p><a href='http://localhost:3000/react7ex1' target="_blank" rel="noreferrer">Example:</a></p>
-                <img src='http://localhost:3000/img/react06_Code03.png' alt='JSX Rules'></img>
+                <img src='http://localhost:3000/img/react07_Code01.png' alt='Controled Inputs'></img>
                 <br></br>
                 <br></br>
 
@@ -43,7 +43,7 @@ function R07_Inputs() {
                 <p>Import React and React DOM.</p>
                 <p>Import React and React DOM.</p>
                 <p><a href='http://localhost:3000/react7ex2' target="_blank" rel="noreferrer">Example:</a></p>
-                <img src='http://localhost:3000/img/react06_Code03.png' alt='JSX Rules'></img>
+                <img src='http://localhost:3000/img/react07_Code02.png' alt='Multiple Inputs'></img>
                 <br></br>
                 <br></br>
 
