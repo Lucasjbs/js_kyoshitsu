@@ -2,17 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Home from './pages/home/Home';
-
-import Start from './js_class/J01_Start';
-import Basics from './js_class/J02_Basics';
-import Arrays from './js_class/J03_Arrays';
-import Loops from './js_class/J04_Loops';
-import References from './js_class/J05_References';
-import Callbacks from './js_class/J06_Callbacks';
-import MathDate from './js_class/J07_Math';
-import DocumentObj from './js_class/J08_DOM';
-
 import InfoA from './tipsnhints/JInfo01';
 
 import ReactBasics from './react_class/R02_Basics';
@@ -41,6 +30,8 @@ import Inputs from './react_class/R07_Inputs';
 import InputsEx1 from './react_class/R07_example1';
 import InputsEx2 from './react_class/R07_example2';
 
+import Home from './pages/home/Home';
+import JavascriptClass from './pages/javascriptClass/JavascriptClass'
 
 function App() {
   return (
@@ -48,14 +39,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Home/>} />
-          <Route path='/js1' element={<Start/>} />
-          <Route path='/js2' element={<Basics/>} />
-          <Route path='/js3' element={<Arrays/>} />
-          <Route path='/js4' element={<Loops/>} />
-          <Route path='/js5' element={<References/>} />
-          <Route path='/js6' element={<Callbacks/>} />
-          <Route path='/js7' element={<MathDate/>} />
-          <Route path='/js8' element={<DocumentObj/>} />
+          <Route path='/javascript/fundamental/:id' element={<JavascriptClass />} />
 
           <Route path='/react2' element={<ReactBasics/>} />
           <Route path='/react3' element={<JSX/>} />
