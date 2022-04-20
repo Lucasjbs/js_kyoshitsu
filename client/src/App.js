@@ -12,8 +12,7 @@ import Callbacks from './js_class/J06_Callbacks';
 import MathDate from './js_class/J07_Math';
 import DocumentObj from './js_class/J08_DOM';
 
-import InfoA from './js_class/JInfo01';
-import ProjectNames from './js_class/JPJ01_Names';
+import InfoA from './tipsnhints/JInfo01';
 
 import ReactBasics from './react_class/R02_Basics';
 import ReactBasicsEx1 from './react_class/R02_example1';
@@ -84,7 +83,6 @@ function App() {
           <Route path='/react7ex2' element={<InputsEx2/>} />
           
           <Route path='/jsinfo1' element={<InfoA/>} />
-          <Route path='/jsproject1' element={<ProjectNames/>} />
         </Routes>
       </Router>
     </div>
