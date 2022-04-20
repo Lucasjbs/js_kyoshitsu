@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Home from './main_pages/Home';
+import Home from './pages/home/Home';
+
 import Start from './js_class/J01_Start';
 import Basics from './js_class/J02_Basics';
 import Arrays from './js_class/J03_Arrays';
@@ -83,6 +84,7 @@ function App() {
           <Route path='/react7ex2' element={<InputsEx2/>} />
           
           <Route path='/jsinfo1' element={<InfoA/>} />
+          <Route path='*' element={<Home />} />
         </Routes>
       </Router>
     </div>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+:root{
+    --color-bg: #110212;
+    --color-bg-variant: #bd481a;
+    /*Or use it on novel*/
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-primary-magenta: #ff00ff;
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--color-bg);
+    color: #fff;
+    line-height: 1.5;
+    display: block;
+    margin: 8px;
+    padding: 8px;
+}
