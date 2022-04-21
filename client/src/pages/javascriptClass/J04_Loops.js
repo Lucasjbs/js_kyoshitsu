@@ -1,5 +1,10 @@
 import React from 'react'
 
+import J04_Code01 from '../../assets/j04_Code01.png'
+import J04_Code02 from '../../assets/j04_Code02.png'
+import J04_Code03 from '../../assets/j04_Code03.png'
+import J04_Code04 from '../../assets/j04_Code04.png'
+
 function J04_Loops() {
 
     function loopExample(){
@@ -105,46 +110,32 @@ function J04_Loops() {
       }
 
   return (
-    <div className='container'>
-        <div className='row'>
-            <h2>Loops, Properties and Template Literals: </h2>
-            <div className='col-sm-10'>
-                <p>1- While, Do While and For Loops: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code01.png' alt='Loops'></img>
-                <h6>Result: </h6>
-                <strong>{loopExample()}</strong>
-                <br></br>
-                <br></br>
+    <>
+      <h2>Loops, Properties and Template Literals: </h2>
+      <p>1- While, Do While and For Loops: </p>
+      <h4>Code: </h4>
+      <img src={J04_Code01} alt='Loops'></img>
+      <h4>Result: {loopExample()}</h4>
+      <br></br>
 
-                <p>2- String Properties and Methods: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code02.png' alt='Strings'></img>
-                <h6>Result: </h6>
-                <strong>{strProperties()}</strong>
-                <br></br>
-                <br></br>
+      <p>2- String Properties and Methods: </p>
+      <h4>Code: </h4>
+      <img src={J04_Code02} alt='Strings'></img>
+      <h4>Result: {strProperties()}</h4>
+      <br></br>
 
-                <p>3- Template Literals: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code03.png' alt='Templates'></img>
-                <h6>Result: </h6>
-                <strong>{templateLiterals()}</strong>
-                <br></br>
-                <br></br>
+      <p>3- Template Literals: </p>
+      <h4>Code: </h4>
+      <img src={J04_Code03} alt='Templates'></img>
+      <h4>Result: {templateLiterals()}</h4>
+      <br></br>
 
-                <p>4- Arrays Properties and Methods: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code04.png' alt='Arrays'></img>
-                <h6>Result: </h6>
-                <strong>{arrProperties()}</strong>
-                <br></br>
-                <br></br>
-
-                <a href='http://localhost:3000/'>Return to home page</a>
-            </div>
-        </div>
-    </div>
+      <p>4- Arrays Properties and Methods: </p>
+      <h4>Code: </h4>
+      <img src={J04_Code04} alt='Arrays'></img>
+      <h4>Result: {arrProperties()}</h4>
+      <br></br>
+    </>
   )
 }
 

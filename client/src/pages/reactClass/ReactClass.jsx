@@ -12,13 +12,15 @@ import Reference from './reactFundamentals/R08_Reference';
 const ReactClass = () => {
   return (
     <>
-      {useParams().id==='2' && <ReactBasics />}
-      {useParams().id==='3' && <JSX />}
-      {useParams().id==='4' && <State />}
-      {useParams().id==='5' && <Effect />}
-      {useParams().id==='6' && <Conditional />}
-      {useParams().id==='7' && <Inputs />}
-      {useParams().id==='8' && <Reference />}
+      <section id='reactLesson'>
+        {useParams().id==='2' && <ReactBasics />}
+        {useParams().id==='3' && <JSX />}
+        {useParams().id==='4' && <State />}
+        {useParams().id==='5' && <Effect />}
+        {useParams().id==='6' && <Conditional />}
+        {useParams().id==='7' && <Inputs />}
+        {useParams().id==='8' && <Reference />}
+      </section>
     </>
   )
 }

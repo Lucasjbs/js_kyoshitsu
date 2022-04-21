@@ -1,5 +1,11 @@
 import React from 'react'
 
+import J06_Code01 from '../../assets/j06_Code01.png'
+import J06_Code02 from '../../assets/j06_Code02.png'
+import J06_Code03 from '../../assets/j06_Code03.png'
+import J06_Code04 from '../../assets/j06_Code04.png'
+import J06_Code05 from '../../assets/j06_Code05.png'
+
 function J06_Callbacks() {
 
     function localGlobalScope(){
@@ -168,54 +174,38 @@ function J06_Callbacks() {
       }
 
   return (
-    <div className='container'>
-        <div className='row'>
-            <h2>Scope, Callbacks and Array Iterators: </h2>
-            <div className='col-sm-10'>
-                <p>1- Variable Lockup in a Global/Local Scope: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j06_Code01.png' alt='Scope'></img>
-                <h6>Result: </h6>
-                <strong>{localGlobalScope()}</strong>
-                <br></br>
-                <br></br>
+    <>
+        <h2>Scope, Callbacks and Array Iterators: </h2>
+        <p>1- Variable Lockup in a Global/Local Scope: </p>
+        <h4>Code: </h4>
+        <img src={J06_Code01} alt='Scope'></img>
+        <h4>Result: {localGlobalScope()}</h4>
+        <br></br>
 
-                <p>2- Callback Function: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j06_Code02.png' alt='Callback'></img>
-                <h6>Result: </h6>
-                <strong>{callbackExample()}</strong>
-                <br></br>
-                <br></br>
+        <p>2- Callback Function: </p>
+        <h4>Code: </h4>
+        <img src={J06_Code02} alt='Callback'></img>
+        <h4>Result: {callbackExample()}</h4>
+        <br></br>
 
-                <p>3- Array Iterators - For Each: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j06_Code03.png' alt='For Each'></img>
-                <h6>Result: </h6>
-                <strong>{forEachEx()}</strong>
-                <br></br>
-                <br></br>
+        <p>3- Array Iterators - For Each: </p>
+        <h4>Code: </h4>
+        <img src={J06_Code03} alt='For Each'></img>
+        <h4>Result: {forEachEx()}</h4>
+        <br></br>
 
-                <p>4- Array Iterators - Map: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j06_Code04.png' alt='Map'></img>
-                <h6>Result: </h6>
-                <strong>{mapEx()}</strong>
-                <br></br>
-                <br></br>
+        <p>4- Array Iterators - Map: </p>
+        <h4>Code: </h4>
+        <img src={J06_Code04} alt='Map'></img>
+        <h4>Result: {mapEx()}</h4>
+        <br></br>
 
-                <p>5- Array Iterators - Filter, Find and Reduce: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j06_Code05.png' alt='Iterators'></img>
-                <h6>Result: </h6>
-                <strong>{otherIterators()}</strong>
-                <br></br>
-                <br></br>
-
-                <a href='http://localhost:3000/'>Return to home page</a>
-            </div>
-        </div>
-    </div>
+        <p>5- Array Iterators - Filter, Find and Reduce: </p>
+        <h4>Code: </h4>
+        <img src={J06_Code05} alt='Iterators'></img>
+        <h4>Result: {otherIterators()}</h4>
+        <br></br>
+    </>
   )
 }
 

@@ -1,5 +1,11 @@
 import React from 'react'
 
+import J03_Code01 from '../../assets/j03_Code01.png'
+import J03_Code02 from '../../assets/j03_Code02.png'
+import J03_Code03 from '../../assets/j03_Code03.png'
+import J03_Code04 from '../../assets/j03_Code04.png'
+import J03_Code05 from '../../assets/j03_Code05.png'
+
 function J03_Arrays() {
 
     function arrayExample(){
@@ -149,54 +155,38 @@ function J03_Arrays() {
       }
 
   return (
-    <div className='container'>
-        <div className='row'>
-            <h2>Javascript Arrays, Functions, Conditional Statements and Operators: </h2>
-            <div className='col-sm-10'>
-                <p>1- Arrays in Javascript: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j03_Code01.png' alt='JS Arrays'></img>
-                <h6>Result: </h6>
-                <strong>{arrayExample()}</strong>
-                <br></br>
-                <br></br>
+    <>
+        <h2>Javascript Arrays, Functions, Conditional Statements and Operators: </h2>
+        <p>1- Arrays in Javascript: </p>
+        <h4>Code: </h4>
+        <img src={J03_Code01} alt='JS Arrays'></img>
+        <h4>Result: {arrayExample()}</h4>
+        <br></br>
 
-                <p>2- Functions in Javascript: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j03_Code02.png' alt='JS Functions'></img>
-                <h6>Result: </h6>
-                <strong>{functionExample()}</strong>
-                <br></br>
-                <br></br>
+        <p>2- Functions in Javascript: </p>
+        <h4>Code: </h4>
+        <img src={J03_Code02} alt='JS Functions'></img>
+        <h4>Result: {functionExample()}</h4>
+        <br></br>
 
-                <p>3- Objects in Javascript: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j03_Code03.png' alt='JS Objects'></img>
-                <h6>Result: </h6>
-                <strong>{objectExample()}</strong>
-                <br></br>
-                <br></br>
+        <p>3- Objects in Javascript: </p>
+        <h4>Code: </h4>
+        <img src={J03_Code03} alt='JS Objects'></img>
+        <h4>Result: {objectExample()}</h4>
+        <br></br>
 
-                <p>4- Conditional Statements and Operators: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j03_Code04.png' alt='JS Conditionals'></img>
-                <h6>Result: </h6>
-                <strong>{ifConditions()}</strong>
-                <br></br>
-                <br></br>
+        <p>4- Conditional Statements and Operators: </p>
+        <h4>Code: </h4>
+        <img src={J03_Code04} alt='JS Conditionals'></img>
+        <h4>Result: {ifConditions()}</h4>
+        <br></br>
 
-                <p>5- Switch Statements and Operators: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j03_Code05.png' alt='JS Switch'></img>
-                <h6>Result: </h6>
-                <strong>{switchConditions()}</strong>
-                <br></br>
-                <br></br>
-
-                <a href='http://localhost:3000/'>Return to home page</a>
-            </div>
-        </div>
-    </div>
+        <p>5- Switch Statements and Operators: </p>
+        <h4>Code: </h4>
+        <img src={J03_Code05} alt='JS Switch'></img>
+        <h4>Result: {switchConditions()}</h4>
+        <br></br>
+    </>
   )
 }
 

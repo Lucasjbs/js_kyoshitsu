@@ -1,5 +1,10 @@
 import React from 'react'
 
+import J05_Code01 from '../../assets/j05_Code01.png'
+import J05_Code02 from '../../assets/j05_Code02.png'
+import J05_Code03 from '../../assets/j05_Code03.png'
+import J05_Code04 from '../../assets/j05_Code04.png'
+
 function J05_References() {
 
     function references(){
@@ -79,46 +84,32 @@ function J05_References() {
       }
 
   return (
-    <div className='container'>
-        <div className='row'>
-            <h2>References, Null, Truthy and Ternary Operator: </h2>
-            <div className='col-sm-10'>
-                <p>1- References in Javascript: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j05_Code01.png' alt='References'></img>
-                <h6>Result: </h6>
-                <strong>{references()}</strong>
-                <br></br>
-                <br></br>
+    <>
+      <h2>References, Null, Truthy and Ternary Operator: </h2>
+      <p>1- References in Javascript: </p>
+      <h4>Code: </h4>
+      <img src={J05_Code01} alt='References'></img>
+      <h4>Result: {references()}</h4>
+      <br></br>
 
-                <p>2- Value of Null and Undefined: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j05_Code02.png' alt='Null Undefined'></img>
-                <h6>Result: </h6>
-                <strong>{nullUndef()}</strong>
-                <br></br>
-                <br></br>
+      <p>2- Value of Null and Undefined: </p>
+      <h4>Code: </h4>
+      <img src={J05_Code02} alt='Null Undefined'></img>
+      <h4>Result: {nullUndef()}</h4>
+      <br></br>
 
-                <p>3- Truthy and Falsy: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j05_Code03.png' alt='Truthy Falsy'></img>
-                <h6>Result: </h6>
-                <strong>{truthyFalsy()}</strong>
-                <br></br>
-                <br></br>
+      <p>3- Truthy and Falsy: </p>
+      <h4>Code: </h4>
+      <img src={J05_Code03} alt='Truthy Falsy'></img>
+      <h4>Result: {truthyFalsy()}</h4>
+      <br></br>
 
-                <p>4- Ternary Operator: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j05_Code04.png' alt='Ternary'></img>
-                <h6>Result: </h6>
-                <strong>{ternaryOpr()}</strong>
-                <br></br>
-                <br></br>
-
-                <a href='http://localhost:3000/'>Return to home page</a>
-            </div>
-        </div>
-    </div>
+      <p>4- Ternary Operator: </p>
+      <h4>Code: </h4>
+      <img src={J05_Code04} alt='Ternary'></img>
+      <h4>Result: {ternaryOpr()}</h4>
+      <br></br>
+    </>
   )
 }
 

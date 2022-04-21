@@ -1,5 +1,8 @@
 import React from 'react'
 
+import J07_Code01 from '../../assets/j07_Code01.png'
+import J07_Code02 from '../../assets/j07_Code02.png'
+
 function J08_DOM() {
 
     function mathExample(){
@@ -16,30 +19,20 @@ function J08_DOM() {
       }
 
   return (
-    <div className='container'>
-        <div className='row'>
-            <h2>Math and Date Objects: </h2>
-            <div className='col-sm-10'>
-                <p>1- Math Object: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code01.png' alt='Math'></img>
-                <h6>Result: </h6>
-                <strong>{mathExample()}</strong>
-                <br></br>
-                <br></br>
+    <>
+      <h2>Math and Date Objects: </h2>
+      <p>1- Math Object: </p>
+      <h4>Code: </h4>
+      <img src={J07_Code01} alt='Math'></img>
+      <h4>Result: {mathExample()}</h4>
+      <br></br>
 
-                <p>2- Date Object: </p>
-                <h6>Code: </h6>
-                <img src='http://localhost:3000/img/j04_Code02.png' alt='Date'></img>
-                <h6>Result: </h6>
-                <strong>{dateExample()}</strong>
-                <br></br>
-                <br></br>
-
-                <a href='http://localhost:3000/'>Return to home page</a>
-            </div>
-        </div>
-    </div>
+      <p>2- Date Object: </p>
+      <h4>Code: </h4>
+      <img src={J07_Code02} alt='Date'></img>
+      <h4>Result: {dateExample()}</h4>
+      <br></br>
+    </>
   )
 }
 
