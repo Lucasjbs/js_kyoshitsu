@@ -3,8 +3,7 @@
 :root{
     --color-bg: #110212;
     --color-bg-variant: #bd481a;
-    /*Or use it on novel*/
-    --color-primary: #4db5ff;
+    --color-primary: #04d361;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-primary-magenta: #ff00ff;
     --color-white: #fff;
@@ -19,4 +18,33 @@ body {
     display: block;
     margin: 8px;
     padding: 8px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+}
+h1, h4{
+    color: var(--color-bg-variant);
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    a{
+        font-size: 13px;
+    }
 }

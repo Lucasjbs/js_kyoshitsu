@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ReactCatalog = () => {
   return (
     <section id='reactCatalog'>
-    <h2>ReactJS Classes:</h2>
+      <h2>ReactJS Classes:</h2>
 
-    <p>1- <a href='http://localhost:3000/js1'>Starting a React JS Project</a></p>
-    <p>2- <a href='http://localhost:3000/react2'>React Basics</a></p>
-    <p>3- <a href='http://localhost:3000/react3'>JSX Properties</a></p>
-    <p>4- <a href='http://localhost:3000/react4'>React Hooks: Use State</a></p>
-    <p>5- <a href='http://localhost:3000/react5'>React Hooks: Use Effect</a></p>
-    <p>6- <a href='http://localhost:3000/react6'>Conditional Rendering</a></p>
-    <p>7- <a href='http://localhost:3000/react7'>Forms and Inputs</a></p>
+      <p><Link to={{ pathname: "/javascript/fundamental/1"}}>1- Starting a Basic ReactJS Project</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/2"}}>2- React Basics</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/3"}}>3- JSX Properties</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/4"}}>4- React Hooks: Use State</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/5"}}>5- React Hooks: Use Effect</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/6"}}>6- Conditional Rendering</Link></p>
+      <p><Link to={{ pathname: "/react/fundamental/7"}}>7- Forms and Inputs</Link></p>
 
     </section>
   )

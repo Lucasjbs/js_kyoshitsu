@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function R02_Basics() {
 
@@ -43,7 +44,7 @@ function R02_Basics() {
                 <p>React components require the user to return HTML elements with JSX. Under the hood, it'll 
                     automatically create elements using Javascript.</p>
                 <p>JSX is used to facilitate the creation of HTML elements.</p>
-                <p><a href='http://localhost:3000/react2ex1' target="_blank" rel="noreferrer">Example:</a></p>
+                <p><Link to={{ pathname: "/react/examples/1"}}>Example:</Link></p>
                 <img src='http://localhost:3000/img/react02_Code02.png' alt='JSX Conversion'></img>
                 <br></br>
                 <br></br>

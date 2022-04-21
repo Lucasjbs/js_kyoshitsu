@@ -11,8 +11,6 @@ import Math from './J07_Math';
 import DOM from './J08_DOM';
 
 const JavascriptClass = () => {
-  console.log(useParams().id)
-
   return (
     <>
       {useParams().id==='1' && <Start />}

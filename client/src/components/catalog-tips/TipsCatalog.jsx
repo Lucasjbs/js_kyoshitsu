@@ -2,7 +2,7 @@ import React from 'react'
 
 const TipsCatalog = () => {
   return (
-    <section id='jsCatalog'>
+    <section id='tipsCatalog'>
     <h2>Tips and Hints:</h2>
 
     <p>1- <a href='http://localhost:3000/jsinfo1'>Javascript Extras</a></p>
