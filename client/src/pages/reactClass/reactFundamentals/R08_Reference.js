@@ -1,71 +1,37 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function R08_Reference() {
 
-
-
   return (
-    <div className='container'>
-        <div className='row'>
-            <div className='col-sm-10'>
-                <h2>React Example</h2>
-                <br></br>
+    <>
+      <h2>React Example</h2>
+      <br></br>
 
-                <h4>1- Forms and Controled Inputs: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
+      <h4>1- Forms and Controled Inputs: </h4>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p><Link to={{ pathname: "/react/examples/20"}} target="_blank" rel="noreferrer">Example:</Link></p>
+      <br></br>
+      <br></br>
 
-                <h4>2- Forms and Multiple Inputs: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
+      <h4>2- Forms and Multiple Inputs: </h4>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <br></br>
+      <br></br>
 
-                <h4>1- aaaaaaaaa: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
-
-
-
-
-                <h4>1- aaaaaaaaa: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
-
-                <h4>1- aaaaaaaaa: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
-
-                <h4>1- aaaaaaaaa: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
-
-                <h4>1- aaaaaaaaa: </h4>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <p>Import React and React DOM.</p>
-                <br></br>
-
-            </div>
-        </div>
-    </div>
+      <h4>1- aaaaaaaaa: </h4>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <p>Import React and React DOM.</p>
+      <br></br>
+      <br></br>
+    </>
   )
 }
 

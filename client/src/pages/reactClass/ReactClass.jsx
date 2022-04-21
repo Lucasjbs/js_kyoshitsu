@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
+import './reactclass.css'
 
 import ReactBasics from './reactFundamentals/R02_Basics';
 import JSX from './reactFundamentals/R03_JSX';
