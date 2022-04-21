@@ -1,5 +1,12 @@
 import React from 'react'
 
+import J02_Code01 from '../../assets/j02_Code01.png'
+import J02_Code02 from '../../assets/j02_Code02.png'
+import J02_Code03 from '../../assets/j02_Code03.png'
+import J02_Code04 from '../../assets/j02_Code04.png'
+import J02_Code05 from '../../assets/j02_Code05.png'
+import J02_Code06 from '../../assets/j02_Code06.png'
+
 function J02_Basics() {
 
     function docWriteEx() {
@@ -122,77 +129,65 @@ function J02_Basics() {
     }
     
   return (
-    <div className='container'>
-      <div className='row'>
-        <h2>Javascript Basic Variables, Statements and Commands: </h2>
-        <div className='col-sm-10'>
+    <>
+      <h2>Javascript Basic Variables, Statements and Commands: </h2>
+      <p>1- To use Javascript to write a sentence directly in the web page, use the 
+        command "document.write()":</p>
+      <h4>{docWriteEx()}</h4>
+      <h4>Technically, the code can be written inside the JSX return using curly braces, 
+        but it would override the entire page.
+      </h4>
+      <br></br>
 
-            <p>1- To use Javascript to write a sentence directly in the web page, use the 
-              command "document.write()":</p>
-            <h6>Example: </h6>
-            <p>{docWriteEx()}</p>
-            <br></br>
+      <p>2- The alert pop up can be invoked by using the command "alert()" :</p>
+      <h4>Example: </h4>
+      <button type="button" className="btn" onClick={invokeAlertEvent}>Summon Alert</button>
+      <br></br>
+      <br></br>
 
-            <p>2- The alert pop up can be invoked by using the command "alert()" :</p>
-            <h6>Example: </h6>
-            <button type="button" className="btn btn-primary" onClick={invokeAlertEvent}>Summon Alert</button>
-            <br></br>
-            <br></br>
+      <p>3- Variables are the most basic building block: </p>
+      <h4>Code: </h4>
 
-            <p>3- Variables are the most basic building block: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code01.png' alt='Variables'></img>
-            <h6>Result: </h6>
-            <strong>{basicVariableExample()}</strong>
-            <br></br>
-            <br></br>
+      <img src={J02_Code01} alt='Variables'></img>
+      <label>Displaying basic Javascript variables in the console.</label>
+      <h4>Result: {basicVariableExample()}</h4>
+      <br></br>
 
-            <p>4- Variable declarations: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code02.png' alt='Declarations'></img>
-            <h6>Result: </h6>
-            <strong>{variableDeclare()}</strong>
-            <br></br>
-            <br></br>
+      <p>4- Variable declarations: </p>
+      <h4>Code: </h4>
+      <img src={J02_Code02} alt='Declarations'></img>
+      <label>Declaring variables using 'var', 'let' and 'const'.</label>
+      <h4>Result: {variableDeclare()}</h4>
+      <br></br>
 
-            <p>5- Special Characters Overlapping: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code03.png' alt='Overlapping'></img>
-            <h6>Result: </h6>
-            <strong>Console Log Section 03</strong>
-            {console.log("******Section 03******")}
-            {console.log('Overwrite the apostrophe using back slash on: I\'m am')}
-            <br></br>
-            <br></br>
+      <p>5- Special Characters Overlapping: </p>
+      <h4>Code: </h4>
+      <img src={J02_Code03} alt='Overlapping'></img>
+      <label>Overlapping the special character using the backslash.</label>
+      <h4>Result: Console Log Section 03</h4>
+      {console.log("******Section 03******")}
+      {console.log('Overwrite the apostrophe using back slash on: I\'m am')}
+      <br></br>
 
-            <p>6- Basic Numerical Operations: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code04.png' alt='Numerical Operations'></img>
-            <h6>Result: </h6>
-            <strong>{numericalOperations()}</strong>
-            <br></br>
-            <br></br>
+      <p>6- Basic Numerical Operations: </p>
+      <h4>Code: </h4>
+      <img src={J02_Code04} alt='Numerical Operations'></img>
+      <label>Example using the four basic operators and the modulus.</label>
+      <h4>Result: {numericalOperations()}</h4>
+      <br></br>
 
-            <p>7- Strings and Type Conversions: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code05.png' alt='Type Conversions'></img>
-            <h6>Result: </h6>
-            <strong>{typeConversions()}</strong>
-            <br></br>
-            <br></br>
+      <p>7- Strings and Type Conversions: </p>
+      <h4>Code: </h4>
+      <img src={J02_Code05} alt='Type Conversions'></img>
+      <h4>Result: {typeConversions()}</h4>
+      <br></br>
 
-            <p>8- Data Types: </p>
-            <h6>Code: </h6>
-            <img src='http://localhost:3000/img/j02_Code06.png' alt='Data Types'></img>
-            <h6>Result: </h6>
-            <strong>{dataTypes()}</strong>
-            <br></br>
-            <br></br>
-
-            <a href='http://localhost:3000/'>Return to home page</a>
-          </div>
-      </div>
-    </div>
+      <p>8- Data Types: </p>
+      <h4>Code: </h4>
+      <img src={J02_Code06} alt='Data Types'></img>
+      <h4>Result: {dataTypes()}</h4>
+      <br></br>
+    </>
   )
 }
 

@@ -28,6 +28,13 @@ function JInfo01() {
           <br></br>
           <br></br>
 
+          <h4>4- VSCode Shortcuts:</h4>
+          <p>Shift + Tab to "Untab" a section</p>
+          <p>Ctrl + K + C to comment the selected code</p>
+          <p>Ctrl + K + U to uncomment the selected code</p>
+          <br></br>
+          <br></br>
+
           <h4>2- Javascript Console Log Display:</h4>
           <p>Javascript is a loosely typed language.</p>
           <br></br>

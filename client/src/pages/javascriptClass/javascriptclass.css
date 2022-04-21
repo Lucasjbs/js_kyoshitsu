@@ -1,0 +1,9 @@
+#javascriptLesson label{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-primary-variant);
+}
+#javascriptLesson h4{
+    text-align: left;
+}
