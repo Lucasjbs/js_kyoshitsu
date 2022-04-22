@@ -13,6 +13,7 @@ function R08_Reference() {
       <p>Import React and React DOM.</p>
       <p>Import React and React DOM.</p>
       <p><Link to={{ pathname: "/react/examples/20"}} target="_blank" rel="noreferrer">Example:</Link></p>
+      <img src='http://localhost:3000/dummyImg.png' alt='Dummy'></img>
       <br></br>
       <br></br>
 
